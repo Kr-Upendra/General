@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(89, 94, 167), rgb(17, 228, 17), rgb(34, 54, 34));
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+}
+
+/* Header parts */
+.header {
+    border: 1px dotted #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.header h1 {
+    color: rgb(221, 221, 236);
+    font-size: 3rem;
+}
+
+.logo {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    margin: 60px 0 0 60px;
+}
+
+/* Main parts  */
+
+.main {
+    height: 12rem;
+    width: 12rem;
+    margin: 3rem auto;
+    /* border: 2px solid#000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 40px;
+    font-size: 16px;
+    position: relative;
+    left: 44.5%;
+    top: -3%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #000;
+    color: rgba(0, 0, 0, 0.288);
+    background-color: #ccc;
+}
+
+button:hover {
+    background-color: rgb(252, 255, 254);
+    color: rgba(22, 20, 20, 0.932);
+}
+
+.border {
+    border: 1px dotted red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* footer parts */
+footer {
+    height: 8rem;
+    width: 100%;
+    border: 1px dotted #000;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer h1 {
+    margin: 20px 0 0 0px;
+    color: rgb(221, 221, 236);
+    text-align: center;
+}
+
+.icons {
+    margin-top: 16px;
+}
+.icons a {
+    margin: 0 10px;
+    color: #ccc;
+    
+}
+
+.icons a:hover{
+    color: #000;
+}
+
+/* Adding media queries to look good also in mobiles */
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 800px;
+    }
+    .logo {
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+    }
+    .header h1 {
+        font-size: 29px;
+    }
+    button {
+        width: 100%;
+        left: 0;
+    }
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
