@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolling Dice</title>
+    <link rel="icon" href="favicon1.ico">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="favicon1.ico" alt="logoImage" class="logo"></a>
+        <h1>Roll Dice</h1>
+        <i class="fa fa-question-circle question" style="font-size: 38px;"></i>
+
+    </header>
+    <main>
+        <div class="currentScore setSize">You Rolled<br> <span class="rolledDice" id="diceNumber">6</span></div>
+
+        <div class="dice setSize"><img src="image/dice1.jpeg" alt="dicePicture" class="dicePicture"></div>
+
+        <div class="totalScore setSize">Your Total Score is<br><span class="rolledDice" id="total--score">54</span></div>
+        
+    </main>
+    <button class="btn-2">Roll Dice</button>
+    <footer>
+        <h1>Get In Touch</h1>
+        <div class="icons">
+            <a href="https://www.facebook.com/justAnError/"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.github.com"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.codepen.io"><i class="fa fa-codepen"></i></a>
+
+        </div>
+        <p>&#169;Upendra_Kumar</p>
+    </footer>
+    <div class="highScore">
+        <h1>Your High Score Was<br><span class="high-score">100</span></h1>
+        <button class="btn-1">Restart Game</button>
+    </div>
+
+    <div class="rules">
+        <div class="cencel">X</div>
+        <h1>Instructions</h1>
+        <p>This is a Simple Rolling Dice Game. In this you need to roll the dice and add points in your scorecard until you rolled 1, if You rolled 1, the game will be ended.</p>
+    </div>
+    <div class="overlay"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
